@@ -1,0 +1,31 @@
+
+
+-- A project has a title, a category, a funding goal, a start date, and an end date.
+-- A user has a name and an age
+-- A pledge has an amount. It belongs to a user, and it also belongs to a project.
+
+
+CREATE TABLE projects
+(
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  category text,
+  funding_goal FLOAT,
+  start_date DATE,
+  end_date DATE
+);
+
+CREATE TABLE users
+(
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER
+);
+
+CREATE TABLE pledges
+(
+  id INTEGER PRIMARY KEY,
+  amount FLOAT,
+  user_id INTEGER,
+  project_id INTEGER
+);
