@@ -72,6 +72,7 @@ describe "crowdfunder sql" do
     end
 
     it "has 20 users" do
+      puts @db.execute("SELECT * FROM users;")
       expect(@db.execute("SELECT COUNT(*) FROM users;").flatten[0]).to eq(20)
     end
 
