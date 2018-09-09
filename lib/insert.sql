@@ -1,0 +1,65 @@
+insert into users (name, age) VALUES ("john",21);
+insert into users (name, age) VALUES ("locke",22);
+insert into users (name, age) VALUES ("jim",26);
+insert into users (name, age) VALUES ("johnny",30);
+insert into users (name, age) VALUES ("rudy",32);
+insert into users (name, age) VALUES ("samuel",28);
+insert into users (name, age) VALUES ("man",35);
+insert into users (name, age) VALUES ("tim",24);
+
+insert into users (name, age) VALUES ("sam",40);
+insert into users (name, age) VALUES ("manny",22);
+insert into users (name, age) VALUES ("rick",26);
+insert into users (name, age) VALUES ("jim",30);
+insert into users (name, age) VALUES ("qarl",32);
+insert into users (name, age) VALUES ("bex",28);
+insert into users (name, age) VALUES ("chris",35);
+insert into users (name, age) VALUES ("amanda",24);
+
+insert into users (name, age) VALUES ("timmy",40);
+insert into users (name, age) VALUES ("lemony",22);
+insert into users (name, age) VALUES ("samantha",26);
+insert into users (name, age) VALUES ("sid",30);
+
+insert into projects (title,category,funding_goal,start_date,end_date) values ("BBQ wings","food",1000.00,"01/01/01","12/12/12");
+
+insert into projects (title,category,funding_goal,start_date,end_date) values ("gamebox3","gaming",2000.00,"01/04/01","12/24/21");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("protein powder","exercise",12000.00,"4/23/15","3/4/17");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("tylenol","medicine",13000.00,"12/12/13","12/24/13");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("towels","toileteries",41.00,"01/24/01","3/8/4");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("google knockoff","tech",102100.00,"12/13/14","12/13/14");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("diapers","baby needs",14100.00,"12/14/01","12/20/12");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("pacman","game",1024.00,"6/12/14","6/14/14");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("sofa","furniture",10130.00,"03/03/03","10/12/03");
+insert into projects (title,category,funding_goal,start_date,end_date) values ("chips","food",10410.00,"09/02/01","09/13/10");
+
+insert into pledges (amount,user_id,project_id) values (40,1,3);
+insert into pledges (amount,user_id,project_id) values (40,4,7);
+insert into pledges (amount,user_id,project_id) values (40,17,5);
+insert into pledges (amount,user_id,project_id) values (40,14,4);
+insert into pledges (amount,user_id,project_id) values (40,3,8);
+insert into pledges (amount,user_id,project_id) values (40,9,8);
+insert into pledges (amount,user_id,project_id) values (40,3,9);
+insert into pledges (amount,user_id,project_id) values (40,7,8);
+insert into pledges (amount,user_id,project_id) values (40,4,5);
+insert into pledges (amount,user_id,project_id) values (40,3,5);
+insert into pledges (amount,user_id,project_id) values (40,14,3);
+insert into pledges (amount,user_id,project_id) values (40,12,10);
+insert into pledges (amount,user_id,project_id) values (40,11,1);
+insert into pledges (amount,user_id,project_id) values (40,13,2);
+insert into pledges (amount,user_id,project_id) values (40,18,3);
+insert into pledges (amount,user_id,project_id) values (40,6,4);
+insert into pledges (amount,user_id,project_id) values (40,9,5);
+insert into pledges (amount,user_id,project_id) values (40,20,6);
+insert into pledges (amount,user_id,project_id) values (40,12,7);
+insert into pledges (amount,user_id,project_id) values (40,14,8);
+insert into pledges (amount,user_id,project_id) values (40,18,9);
+insert into pledges (amount,user_id,project_id) values (40,13,10);
+insert into pledges (amount,user_id,project_id) values (40,19,2);
+insert into pledges (amount,user_id,project_id) values (40,5,3);
+insert into pledges (amount,user_id,project_id) values (40,10,7);
+insert into pledges (amount,user_id,project_id) values (40,17,5);
+insert into pledges (amount,user_id,project_id) values (40,14,4);
+insert into pledges (amount,user_id,project_id) values (40,19,8);
+insert into pledges (amount,user_id,project_id) values (40,5,10);
+insert into pledges (amount,user_id,project_id) values (40,10,3);
